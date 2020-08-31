@@ -9,6 +9,6 @@ pipenv-setup = "*"
 [packages]
 loguru = "*"
 google-cloud-logging = "*"
+gcloud-loguru = {editable = true, path = "."}
 
 [requires]
-python_version = ">=3.6"
