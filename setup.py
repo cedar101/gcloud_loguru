@@ -130,27 +130,7 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=[
-        "cachetools==4.1.1; python_version ~= '3.5'",
-        "certifi==2020.6.20",
-        "chardet==3.0.4",
-        "google-api-core[grpc]==1.21.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-        "google-auth==1.18.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-        "google-cloud-core==1.3.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-        "google-cloud-logging==1.15.0",
-        "googleapis-common-protos==1.52.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-        "grpcio==1.30.0",
-        "idna==2.10; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-        "loguru==0.5.1",
-        "protobuf==3.12.2",
-        "pyasn1==0.4.8",
-        "pyasn1-modules==0.2.8",
-        "pytz==2020.1",
-        "requests==2.24.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
-        "rsa==4.6; python_version >= '3'",
-        "six==1.15.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-        "urllib3==1.25.9; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
-    ],  # Optional
+    install_requires=["loguru", "google-cloud-logging"],  # Optional
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
