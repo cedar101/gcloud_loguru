@@ -1,0 +1,18 @@
+[project]
+name = "gcloud_loguru"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kim, Baeg-il", email = "cedar101@gmail.com"},
+]
+dependencies = [
+    "loguru>=0.7.0",
+    "google-cloud-logging>=3.6.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
